@@ -4,6 +4,7 @@ $("document").ready(function()
 {
 	$("#b1").on('click', b1Click);
 	$("#b2").on('click', b2Click);
+	$("#b3").on('click', b3Click);
 });
 
 function b1Click()
@@ -14,6 +15,11 @@ function b1Click()
 function b2Click()
 {
 	runFunc(x => 2 ** x);
+}
+
+function b3Click()
+{
+	runFunc(hashCode);
 }
 
 function runFunc(f)
@@ -28,3 +34,14 @@ function fact(n)
 	else return n * fact(n - 1);
 }
 
+function hashCode(s) {
+  var string = new String(s);
+  var hash = 0, i, chr;
+  if (string.length === 0) return hash;
+  for (i = 0; i < string.length; i++) {
+    chr   = string.charCodeAt(i);
+    hash  = ((hash << 5) - hash) + chr;
+    hash |= 0; // Convert to 32bit integer
+  }
+  return hash;
+};
