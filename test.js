@@ -1,6 +1,6 @@
-var a = 123;
+var a = 10;
 
-document.write(fact(6));
+document.write(fact(a));
 
 function fact(n)
 {
