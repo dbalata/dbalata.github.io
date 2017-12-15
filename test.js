@@ -4,7 +4,7 @@ function run()
 {
 	//document.write(a + " factorial is: ");
 	//document.write(fact(a) + "<br>");
-	window.location.href = "http://stackoverflow.com";
+	window.open("http://stackoverflow.com");
 }
 
 function fact(n)
