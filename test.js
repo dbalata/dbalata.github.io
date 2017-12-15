@@ -1,10 +1,14 @@
 var a = 10;
 
+$("document").ready(function()
+{
+	$("#b1").on('click', run);
+});
+
 function run()
 {
-	//document.write(a + " factorial is: ");
-	//document.write(fact(a) + "<br>");
-	window.open("http://stackoverflow.com");
+	var input = $("#ta1").val();
+	$("#t1").text(fact(input));
 }
 
 function fact(n)
