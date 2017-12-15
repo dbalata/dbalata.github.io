@@ -1,5 +1,6 @@
 var a = 10;
 
+document.write(a + "factorial is: ");
 document.write(fact(a));
 
 function fact(n)
