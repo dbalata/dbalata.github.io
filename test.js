@@ -1,5 +1,3 @@
-var a = 10;
-
 $("document").ready(function()
 {
 	$("#b1").on('click', b1Click);
