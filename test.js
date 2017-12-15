@@ -1,4 +1,4 @@
 var a = 123;
-alert(a);
+alert(location.hostname);
 
 document.write("Hello");
