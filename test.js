@@ -1,7 +1,7 @@
 var a = 10;
 
 document.write(a + " factorial is: ");
-document.write(fact(a) + "\n");
+document.write(fact(a) + "<br>");
 
 document.write("referrer: " + document.referrer);
 
