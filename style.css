@@ -1,10 +1,9 @@
  * { font-family: 'Abel';}
  * {background: #F2F3F4;}
  * {text-align: center;}
- * {cursor: cell;}
-p { color: #9966CC; }
+p { color: #004852; }
 h1 { color: #54626F; box-shadow: 5px 5px 5px 2px black; background: #DBE9F4;}
 h2 {color: #FF2052; padding: 24px;}
 a {font-size: 24}
-a:hover {color: #FFE135; cursor: crosshair}
+a:hover {color: #FFE135;}
  
