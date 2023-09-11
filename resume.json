@@ -1,0 +1,212 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Dylan Balata",
+    "label": "Software Engineer",
+    "image": "headshot.png",
+    "email": "dbalata95@gmail.com",
+    "summary": " Graduated magna cum laude with a Bachelor's in Computer Science from the University of New Mexico with a GPA of 3.8. Interned for 2 years at Tau Technologies while in school. While there worked on a variety of applications including: hardware acceleration, orbital modelling, and cross compilation. Since graduating in 2018 has been working at Indica Labs in a variety of areas including: full stack development, computer vision, convolutional neural networks, graphics rendering, and .NET. Has been the lead or sole engineer on successfully delivered features in all of these areas. Has also brought cutting edge information to the company through finding, evaluating, and presenting relevant white papers.",
+    "location": {
+      "address": "10800 Cibola Loop NW, Apt 2044",
+      "postalCode": "NM 87114",
+      "city": "Albuquerque",
+      "countryCode": "US",
+      "region": "New Mexico"
+    },
+    "profiles": []
+  },
+  "work": [
+    {
+      "name": "Indica Labs",
+      "location": "Albuquerque, New Mexico",
+      "summary": "Provided complete software solutions in a variety of domains, working with product and QA professionals to deliver high quality results in periodic release time frames.",
+      "position": "Software Engineer",
+      "url": "https://www.indicalab.com/",
+      "startDate": "2018-08-01",
+      "description": "Indica Labs is the world’s leading provider of computational pathology software and services. Their flagship HALO image analysis platform enables fast, quantitative evaluation of tissues using a broad range of artificial intelligence (AI) and computer vision algorithms. - from their website",
+      "highlights": [
+        "Developed a fullstack solution to allow management of GPU resources across multiple networked machines by multiple users for high throughput neural network training. Utilized WinForms for a responsive desktop front end, a combination of GraphQL and SignalR web-sockets for network communications, and MySql through EntityFramework for persistence.",
+        "Integrated new neural network based image analysis methods into existing traditional image analysis dataflows, allowing seamless combination of machine learning and traditional methods for complex image quantification tasks.",
+        "Researched and developed a cutting edge convolutional neural network based approach to mitotic figure segmentation in whole slide images. Utilized mxnet for training and inference on a custom RetinaNet based architecture.",
+        "Developed a custom object oriented c++ wrapper for the python C API, effectively a drop in replacement for boost-python but conforming to the python stable ABI, allowing for python embedding to be agnostic to python version >= 3.3, resulting in a greatly increased ease of use for third party and internal python plugin developers.",
+        "Converted graphical portions of the AI product to use OpenGL instead of System.Drawing, resulting in greatly increased rendering efficiency through use of GPU resources.",
+        "Increased team knowledge by presenting multiple white papers and giving well attended tech-talks on various topics such as those previously mentioned."
+      ]
+    },
+    {
+      "name": "Tau Technologies",
+      "location": "Albuquerque, New Mexico",
+      "summary": "Provided general software solutions under the direction of a senior engineer.",
+      "position": "Software Engineering Intern",
+      "url": "http://tautechnologies.com/",
+      "startDate": "2016-08-01",
+      "endDate": "2018-08-01",
+      "description": "A small company in Albuquerque, New Mexico dedicated to Government engineering and scientific research and development especially as it relates to space systems, directed energy, and electro-optic systems. - from their website",
+      "highlights": [
+        "Developed a working prototype and grant proposal for a Haskell program that would take as input programs written in a legacy language specific to naval operations and output equivalent programs written in c++ for testing and verification purposes.",
+        "Integrated a 3rd party library into an orbital modelling Java application to allow computing n-body gravitational dynamics in place of an existing 2-body implementation.",
+        "Developed a reflection based refactoring tool that was used to automate a large part of an ongoing refactor, saving developer time."
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of New Mexico",
+      "url": "https://www.unm.edu/",
+      "area": "Computer Science (Philosophy minor)",
+      "studyType": "Bachelor",
+      "startDate": "2014-08-15",
+      "endDate": "2018-12-18",
+      "score": "3.8",
+      "courses": [
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "UNM Presidential Scholarship",
+      "date": "2014-08-15",
+      "awarder": "University of New Mexico",
+      "summary": "Academic scholarship covering tuition costs."
+    },
+    {
+      "title": "VanDyke Scholarship",
+      "date": "2015-03-01",
+      "awarder": "VanDyke Software Inc.",
+      "summary": "Awarded to computer science students who excel in lower-level computer science courses."
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": ".NET",
+      "level": "Experienced",
+      "keywords": [
+        "LINQ",
+        "Object Oriented Programming",
+        "C#",
+        "Unit Testing"
+      ]
+    },
+    {
+      "name": "Computer Vision",
+      "level": "Proficient",
+      "keywords": [
+        "Traditional",
+        "OpenCV",
+        "Neural Networks",
+        "PyTorch"
+      ]
+    },
+    {
+      "name": "Full Stack",
+      "level": "Proficient",
+      "keywords": [
+        "WinForms",
+        "GraphQL",
+        "Web Sockets",
+        "ORM",
+        "EntityFramework",
+        "SQL",
+        "MySql"
+      ]
+    },
+    {
+      "name": "Embedding",
+      "level": "Proficient",
+      "keywords": [
+        "Interop",
+        "Python",
+        "Native Code",
+        "High Performance"
+      ]
+    },
+    {
+      "name": "Graphics",
+      "level": "Competent",
+      "keywords": [
+        "OpenGL",
+        "Rendering",
+        "Hardware Acceleration"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Fitness",
+      "keywords": [
+        "Weightlifting",
+        "Bodybuilding"
+      ]
+    },
+    {
+      "name": "Philosophy",
+      "keywords": [
+        "Social philosophy",
+        "Ethics"
+      ]
+    }
+  ],
+  "references": [
+  ],
+  "projects": [
+    {
+      "name": "HALO",
+      "description": "A quantitatve image analysis platform for digital pathology.",
+      "highlights": [
+        "Utilized for both academic and commercial pathology research globally.",
+        "Developed by a diverse team of engineers, scientists, and pathologists.",
+        "Uses a combination of C# and native code to provide a high performance and responsive user experience."
+      ],
+      "keywords": [
+        "C#",
+        "WinForms",
+        "Traditional Image Analysis",
+        "Third Party Integrations"
+      ],
+      "startDate": "2018-10-24",
+      "endDate": "2020-08-15",
+      "url": "https://indicalab.com/halo/",
+      "roles": [
+        "Software Engineer"
+      ],
+      "entity": "Indica Labs",
+      "type": "application"
+    },
+    {
+      "name": "HALO AI",
+      "description": "A HALO addon allowing the introduction of machine learning into the traditional HALO workflow.",
+      "highlights": [
+        "Allows end users to easily train and deploy neural networks for image analysis tasks.",
+        "Provides a variety of networks for different tasks, as well as supporting ONNX model imports.",
+        "Utilizes python embedding to provide users of the C# desktop application with convenient access to the latest machine learning tools available."
+      ],
+      "keywords": [
+        "Python",
+        "mxnet",
+        "PyTorch",
+        "Convolutional Neural Networks"
+      ],
+      "startDate": "2020-08-15",
+      "url": "https://indicalab.com/halo-ai/",
+      "roles": [
+        "Software Engineer"
+      ],
+      "entity": "Indica Labs",
+      "type": "application"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "onepage"
+  }
+}
