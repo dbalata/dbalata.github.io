@@ -9,7 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.21.0",
+    "jsonresume-theme-flat": "^0.3.7",
     "jsonresume-theme-onepage": "^0.0.3"
   }
 }
